@@ -17,7 +17,7 @@ st.markdown(
 st.markdown("<br>", unsafe_allow_html=True)
 
 """
-[![Star](https://img.shields.io/github/stars/lautaropacella/doppelganger.svg?logo=github&style=social)](https://github.com/lautaropacella/doppelganger)
+[![Star](https://img.shields.io/github/stars/lautaropacella/datathon2023.svg?logo=github&style=social)](https://github.com/lautaropacella/datathon2023)
 """
 
 st.image(logo, width=500)
