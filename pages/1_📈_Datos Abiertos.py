@@ -236,7 +236,6 @@ st.altair_chart(tipo_visitante, use_container_width=True)
 st.write(
     """Podemos observar que el total de visitantes al Parque Nacional Iberá desde el año 2017 hasta el año 2022 fue de 31854,
     y el 12% (3884) de estos visitantes provienen del extranjero.
-    Observamos que solo el 12% (3884) del total de los visitanets (31854) provienen del extranjero.
     """
 )
 
@@ -249,7 +248,7 @@ residentes_por_ano = ibera.groupby("ano")["visitantes"].sum()
 st.bar_chart(data=residentes_por_ano, use_container_width=True)
 
 st.write(
-    """La cantidad de visitantes iba en aumento hasta el 2020, cuándo la crisis del COVID golpeó más duro. Sería interesante poder
+    """La cantidad de visitantes iba en aumento hasta el 2020, cuándo la crisis del COVID golpeó más duramente. Sería interesante poder
     analizar los datos de los años posteriores para ver si el crecimiento sigue vigente.
     """
 )
