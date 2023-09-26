@@ -12,4 +12,4 @@ Para el presente proyecto se han utilizado las siguientes fuentes:
 - [Oferta de Alojamiento en la Ciudad de Corrientes - Serie 2016-2022. Municipalidad de Corrientes, 2023.](https://datos.ciudaddecorrientes.gov.ar/dataset/oferta-alojamiento)
 - [Ocupación Hotelera en la Ciudad de Corrientes - Serie 2016-2022. Municipalidad de Corrientes, 2023.](https://datos.ciudaddecorrientes.gov.ar/dataset/ocupac_hotelera)
 - [Visitantes en APN - Serie 2003-2020. APN, 2021.](https://docs.google.com/spreadsheets/d/1fT_kIOwEylGtsv6pMZYLeMNgYA3eb0TE/edit#gid=295715960)
-- Dataset de Alojamientos en Airbnb de la Ciudad de Corrientes.
+- [Dataset de Alojamientos en Airbnb de la Ciudad de Corrientes.](https://github.com/lautaropacella/datathon2023/blob/main/data/airbnb.csv)
