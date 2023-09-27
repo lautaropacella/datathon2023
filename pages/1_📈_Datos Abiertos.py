@@ -9,7 +9,6 @@ alojamiento_csv = Path(__file__).parents[1] / "data/alojamiento.csv"
 ocupacion_csv = Path(__file__).parents[1] / "data/ocupacion.csv"
 ibera_coord_csv = Path(__file__).parents[1] / "data/ibera coordenadas.csv"
 APN_csv = Path(__file__).parents[1] / "data/parques_visitantes.csv"
-esteros_video = Path(__file__).parents[1] / "img/Esteros.mp4"
 
 st.set_page_config(page_title="Datathon 2023", layout="wide", page_icon=":bar_chart:")
 
@@ -74,7 +73,6 @@ def create_esteros_map(ibera_coord):
 
 ## PAGE FORMAT ##
 
-
 st.markdown("# Datos Abiertos de Corrientes")
 st.write(
     """A continuación, presentaremos un breve análisis sobre alojamientos disponibles, ocupación
@@ -101,7 +99,6 @@ st.write(
       **aunque aún no ha logrado recuperar el nivel previo a la crisis del COVID-19**. Esto podría representar una
      oportunidad del sector."""
 )
-
 
 ###
 st.markdown("----")
