@@ -45,8 +45,3 @@ st.markdown("<br>", unsafe_allow_html=True)
     - [Visitantes en APN - Serie 2003-2020. APN, 2021.](https://docs.google.com/spreadsheets/d/1fT_kIOwEylGtsv6pMZYLeMNgYA3eb0TE/edit#gid=295715960)
     - [Dataset de Alojamientos en Airbnb de la Ciudad de Corrientes.](https://github.com/lautaropacella/datathon2023/blob/main/data/airbnb.csv)
 """
-
-# with st.expander("Más Info"):
-#    """
-#    -
-#    """
