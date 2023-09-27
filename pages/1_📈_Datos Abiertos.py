@@ -186,7 +186,7 @@ st.write(
 ###
 st.markdown("----")
 st.markdown(
-    "##### Estacia Promedio en Hoteles de la Ciudad de Corrientes (2016-2022)"
+    "##### Estacia Promedio Mensual en Hoteles de la Ciudad de Corrientes (2016-2022)"
 )
 st.bar_chart(data=ocupacion, x="Fecha", y="Estadia Promedio", use_container_width=True)
 st.write(
