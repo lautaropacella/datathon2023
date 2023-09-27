@@ -216,7 +216,7 @@ st_map = st_folium(ibera_map, width=700, height=450)
 ###
 st.markdown("----")
 
-st.markdown("##### Visitantes del Parque por Tipo de Residencia desde 2017-2022")
+st.markdown("##### Visitantes del Parque por Tipo de Residencia desde 2017-2020")
 
 residentes = ibera[ibera["categoria"] == "Residentes"]["visitantes"].sum()
 extranjeros = ibera[ibera["categoria"] == "Extranjeros"]["visitantes"].sum()
@@ -233,7 +233,7 @@ tipo_visitante = (
 
 st.altair_chart(tipo_visitante, use_container_width=True)
 st.write(
-    """Podemos observar que el total de visitantes al Parque Nacional Iberá desde el año 2017 hasta el año 2022 fue de 31854,
+    """Podemos observar que el total de visitantes al Parque Nacional Iberá desde el año 2017 hasta el año 2020 fue de 31854,
     y el 12% (3884) de estos visitantes provienen del extranjero.
     """
 )
@@ -241,7 +241,7 @@ st.write(
 ###
 st.markdown("----")
 
-st.markdown("##### Total de Visitantes del Parque por Año  (2017-2022)")
+st.markdown("##### Total de Visitantes del Parque por Año  (2017-2020)")
 
 residentes_por_ano = ibera.groupby("ano")["visitantes"].sum()
 st.bar_chart(data=residentes_por_ano, use_container_width=True)
@@ -252,7 +252,7 @@ st.write(
     """
 )
 
-st.markdown("##### Total de Visitantes del Parque Agrupados por Mes Durante 2017-2022")
+st.markdown("##### Total de Visitantes del Parque Agrupados por Mes Durante 2017-2020")
 
 residentes_por_mes = ibera.groupby("mes")["visitantes"].sum()
 st.bar_chart(data=residentes_por_mes, use_container_width=True)
